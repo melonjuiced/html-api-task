@@ -183,7 +183,7 @@ async function handleLoginRender(login, password) {
         const result = await requests.login(login, password);
 
         if (result.success) {
-            window.location.href = "/html-api-task";
+            window.location.href = "/";
         } else {
             card("danger", "Что-то пошло не так!", screens.register);
         }
