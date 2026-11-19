@@ -1,4 +1,4 @@
-const BASE_URL = "http://kino.vippo.ru/api";
+const BASE_URL = "https://kino.vippo.ru/api";
 
 async function login(username, password) {
     const url = `${BASE_URL}/login`;
