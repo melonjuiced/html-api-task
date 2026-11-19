@@ -62,7 +62,7 @@ async function register(username, login, password) {
 
 function logout() {
     localStorage.clear();
-    window.location.href = "/";
+    window.location.href = "/html-api-task";
 }
 
 async function getAllPosts() {
